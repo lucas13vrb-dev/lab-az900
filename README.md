@@ -93,15 +93,15 @@ IaaS → fornece infraestrutura virtual.
 
 PaaS → fornece plataforma para desenvolvimento.
 
+SaaS → fornece software pronto para uso.
+
+On-premises → toda responsabilidade é da empresa.
+
+Na nuvem existe um modelo de responsabilidade compartilhada.
+
 feat: criação de máquina virtual no Azure
 
 - Criação do Resource Group
 - Configuração da Virtual Network
 - Provisionamento da VM Linux
 - Configuração de acesso remoto
-
-SaaS → fornece software pronto para uso.
-
-On-premises → toda responsabilidade é da empresa.
-
-Na nuvem existe um modelo de responsabilidade compartilhada.
