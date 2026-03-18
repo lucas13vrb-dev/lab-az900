@@ -1,107 +1,114 @@
-# lab-az900
-Repositório contendo as informações do curso AZ900 
-**Repositório de estudos do AZ-900 (Microsoft Azure Fundamentals) contendo resumos, laboratórios e exemplos práticos sobre computação em nuvem e serviços do Microsoft Azure. 
-Criado com o objetivo de consolidar conhecimentos e compor portfólio na área de Cloud e Data.**
+☁️ Lab AZ-900 – Fundamentos de Cloud & Azure
+📌 Sobre o Projeto
 
-feat(az900): adicionar anotações sobre modelos de serviço em cloud (IaaS, PaaS e SaaS)Infraestrutura como Serviço (IaaS)
+Este repositório contém meus estudos práticos e anotações do curso AZ-900 (Microsoft Azure Fundamentals), com foco em consolidar conhecimentos essenciais em computação em nuvem e preparar uma base sólida para atuação em Engenharia de Dados e Cloud.
 
-Infraestrutura como serviço fornece recursos básicos de computação na nuvem, como máquinas virtuais, armazenamento e rede.
+O objetivo é documentar conceitos, práticas e aprendizados aplicáveis ao dia a dia profissional.
 
-Nesse modelo, o provedor de nuvem gerencia:
+🎯 Objetivos
 
-Hardware físico
+Consolidar fundamentos de computação em nuvem
 
-Rede
+Entender os principais serviços do Azure
 
-Data centers
+Criar base para certificações e evolução em dados
 
-Virtualização
+Documentar aprendizados de forma estruturada (portfólio técnico)
 
-Já o cliente é responsável por:
+🧠 Conteúdos Abordados
+☁️ Conceitos de Cloud
 
-Sistema operacional
+Modelos de serviço: IaaS, PaaS, SaaS
 
-Configurações da máquina
+Modelos de implantação: Pública, Privada, Híbrida
 
-Middleware
+Benefícios da nuvem: escalabilidade, alta disponibilidade, elasticidade
 
-Aplicações
+🗂️ Armazenamento no Azure
 
-Dados
+Tipos de armazenamento:
 
-Esse modelo oferece maior controle, porém exige mais gerenciamento por parte do usuário.
+Blob Storage (dados não estruturados)
 
-Plataforma como Serviço (PaaS)
+Azure Files (compartilhamento de arquivos)
 
-Plataforma como serviço fornece um ambiente completo para desenvolvimento e execução de aplicações, sem a necessidade de gerenciar infraestrutura.
+Discos (armazenamento para VMs)
 
-O provedor de nuvem gerencia:
+Filas (mensageria)
 
-Infraestrutura
+Redundância de dados:
 
-Sistema operacional
+LRS (Locally Redundant Storage)
 
-Runtime
+GRS (Geo-Redundant Storage)
 
-Middleware
+RA-GRS (Read-Access Geo-Redundant)
 
-O cliente precisa gerenciar apenas:
+Durabilidade:
 
-Aplicações
+LRS → 11 noves (99,999999999%)
 
-Dados
+GRS → até 16 noves
 
-Esse modelo é muito utilizado por desenvolvedores que desejam focar apenas no desenvolvimento da aplicação.
+Boas práticas:
 
-Software como Serviço (SaaS)
+Nome globalmente único
 
-Software como serviço disponibiliza aplicações prontas pela internet, geralmente acessadas por navegador.
+Uso de regiões e resource groups
 
-Nesse modelo:
+Segurança e controle de acesso
 
-O provedor de nuvem gerencia toda a infraestrutura, plataforma e software.
+⚙️ Ferramentas
 
-O usuário apenas utiliza a aplicação.
+AzCopy (transferência de dados)
 
-Normalmente funciona em modelo de assinatura.
+Portal Azure
 
-Exemplos comuns incluem ferramentas de produtividade e CRM baseadas em nuvem.
+CLI / automação (conceitual)
 
-Comparação entre os modelos
-Modelo	Nível de gerenciamento do cliente	Característica principal
-IaaS	Alto	Controle total da infraestrutura virtual
-PaaS	Médio	Ambiente para desenvolvimento
-SaaS	Baixo	Software pronto para uso
-Modelo de Responsabilidade Compartilhada
+🏗️ Aplicação para Engenharia de Dados
 
-Na computação em nuvem existe o conceito de responsabilidade compartilhada, onde as responsabilidades são divididas entre o provedor de nuvem e o cliente.
+Os conceitos estudados são fundamentais para:
 
-Quanto mais alto o nível de serviço (SaaS), menor é a responsabilidade do cliente.
+Construção de Data Lakes
 
-Distribuição de responsabilidades
-Ambiente	Responsabilidade do cliente
-On-premises	Total
-IaaS	Alta
-PaaS	Média
-SaaS	Baixa
+Ingestão de dados em larga escala
 
-No ambiente on-premises, toda a infraestrutura e segurança são responsabilidade da própria empresa.
+Armazenamento de dados estruturados e não estruturados
 
-Resumo
+Arquiteturas escaláveis em nuvem
 
-IaaS → fornece infraestrutura virtual.
+🚀 Próximos Passos
 
-PaaS → fornece plataforma para desenvolvimento.
+Estudar serviços de dados (Data Factory, Synapse, Databricks)
 
-SaaS → fornece software pronto para uso.
+Prática com pipelines de dados
 
-On-premises → toda responsabilidade é da empresa.
+Integração com ferramentas como Power BI
 
-Na nuvem existe um modelo de responsabilidade compartilhada.
+Evolução para certificações mais avançadas (DP-203)
 
-feat: criação de máquina virtual no Azure
+📊 Diferencial do Projeto
 
-- Criação do Resource Group
-- Configuração da Virtual Network
-- Provisionamento da VM Linux
-- Configuração de acesso remoto
+Este repositório não é apenas teórico — ele foi estruturado para:
+
+Servir como base de consulta rápida
+
+Demonstrar conhecimento técnico no GitHub
+
+Apoiar transição para áreas de dados e cloud
+
+👨‍💻 Autor
+
+Lucas Araujo
+Analista de Logística | Foco em Dados & Cloud
+
+⭐ Observação
+
+Este repositório faz parte da minha jornada de evolução para atuar com:
+
+Engenharia de Dados
+
+Cloud Computing
+
+Analytics
